@@ -1,0 +1,12 @@
+{
+  "name": "sm64",
+  "version": "0.0.0",
+  "description": "SM64",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "tmi.js": "^1.2.1"
+  }
+}
