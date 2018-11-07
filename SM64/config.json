@@ -1,0 +1,28 @@
+{
+  "options": {
+    "username": "truce_bot",
+    "password": "oauth:nfg8rylvwx73onste31i6e55vsq6o6",
+    "channel": "truc_e"
+  },
+  "commands": {
+    "mario": 10,
+    "luigi": 10,
+    "wario": 10,
+    "waluigi": 10,
+    "sonic": 10,
+    "neon": 10,
+    "vanish": 10,
+    "metal": 10,
+    "wing": 10,
+    "cap?":  20
+  },
+  "argCommands": {
+    "oof": 10,
+    "speed+": 5,
+    "speed-": 5,
+    "upward": 5,
+    "cannonface": 1
+  },
+  "sub_multiplier": 2,
+  "mod_multiplier": 2
+}
