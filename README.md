@@ -36,7 +36,7 @@ Each command has a name and a point value. i.e. **"luigi": 10** This means the c
 argCommands are a little different instead of having a one time cost they cost the amount of points specified for each number. i.e. **"oof": 10** would mean that **!oof 1** would cost 10 points and **!oof 4** would cost 40 points
 
 ## Installation
-Requires BizHawk. http://tasvideos.org/BizHawk.html \n
-Download the newest release in the release tab in GitHub. Extract the folder to wherever. \n
+Requires BizHawk. http://tasvideos.org/BizHawk.html 
+Download the newest release in the release tab in GitHub. Extract the folder to wherever. 
 ### Usage
 Open BizHawk, go to Tools > Lua Console, then navigate to the SM64 Twitch Integration folder and select UpdateRAM.lua. Run UpdateRAM.lua in the lua console. Run sm64-win.exe.
