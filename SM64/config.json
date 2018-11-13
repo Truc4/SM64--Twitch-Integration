@@ -1,8 +1,8 @@
 {
   "options": {
-    "username": "truce_bot",
-    "password": "oauth:nfg8rylvwx73onste31i6e55vsq6o6",
-    "channel": "truc_e"
+    "username": "example_bot",
+    "password": "oauth:exampleoauth123",
+    "channel": "example_channel"
   },
   "startingPoints": 100,
   "sub_multiplier": 2,
