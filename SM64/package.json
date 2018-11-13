@@ -6,6 +6,7 @@
   "author": {
     "name": ""
   },
+  "bin":  "./app.js",
   "dependencies": {
     "tmi.js": "^1.2.1"
   }
