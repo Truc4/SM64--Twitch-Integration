@@ -4,24 +4,26 @@
     "password": "oauth:nfg8rylvwx73onste31i6e55vsq6o6",
     "channel": "truc_e"
   },
+  "startingPoints": 100,
+  "modCanManagePoints": true,
   "commands": {
-    "mario": 10,
-    "luigi": 10,
-    "wario": 10,
-    "waluigi": 10,
-    "sonic": 10,
-    "neon": 10,
-    "vanish": 10,
-    "metal": 10,
-    "wing": 10,
-    "cap?":  20
+    "mario": 0,
+    "luigi": 0,
+    "wario": 0,
+    "waluigi": 0,
+    "sonic": 0,
+    "neon": 0,
+    "vanish": 0,
+    "metal": 0,
+    "wing": 0,
+    "cap?": 0
   },
   "argCommands": {
-    "oof": 10,
-    "speed+": 5,
-    "speed-": 5,
-    "upward": 5,
-    "cannonface": 1
+    "oof": 5,
+    "speed+": 1,
+    "speed-": 1,
+    "upward": 1,
+    "cannonCam": 1
   },
   "sub_multiplier": 2,
   "mod_multiplier": 2
