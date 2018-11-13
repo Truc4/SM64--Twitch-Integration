@@ -2,10 +2,12 @@
 
 //Initialize
 const tmi = require("tmi.js");
-const config = require("./config.json");
-const points = require("./points.json");
 const fs = require('fs');
 var signature = 0;
+
+//Config
+config = JSON.parse(fs.readFileSync("./config.json"));
+points = JSON.parse(fs.readFileSync("./points.json"));
 
 //Writes info the command.txt for the lua script
 function writeTextFile(username, command, amount = 0) {
