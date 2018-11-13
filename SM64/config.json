@@ -5,6 +5,8 @@
     "channel": "truc_e"
   },
   "startingPoints": 100,
+  "sub_multiplier": 2,
+  "mod_multiplier": 2,
   "modCanManagePoints": true,
   "commands": {
     "mario": 0,
@@ -24,7 +26,5 @@
     "speed-": 1,
     "upward": 1,
     "cannonCam": 1
-  },
-  "sub_multiplier": 2,
-  "mod_multiplier": 2
+  }
 }
