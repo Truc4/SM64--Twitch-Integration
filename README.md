@@ -5,9 +5,21 @@
 This adds Twitch integration to Super Mario 64. Meaning commands are added that change various things in Super Mario 64. Viewers of the stream can spend bits to get points and use points to use commands.
 
 ### Commands can be customized in the config, default commands are listed here:
-- !mario | Returns Mario to his default state.
-- !luigi | Turns Mario to become taller, skinnier, and floaty physics.
-- ...
+- !mario | Returns Mario to his default state
+- !luigi | Turns Mario to become taller, skinnier, and floaty physics
+- !wario | Turns Mario to become short, fat, and heavy physics
+- !waluigi | Turns Mario to become taller, skinnier, and purplier. Having never having a game of his own Waluigi doesn't know how to control, so he has inverted controls
+- !sonic | Mario turns blue and no longer has a speed cap
+- !neon | Mario becomes neon and has random physics
+- !vanish | Toggles Vanish cap
+- !metal | Toggles Metal cap
+- !wing | Toggles Wing cap
+- !cap? | Toggles one of the 142 random variations of cap
+- !oof X | Takes X amount of health from mario
+- !speed+ X | Adds X forwards speed to Mario
+- !speed- X | Adds X backwards speed to Mario
+- !upward X | Teleports Mario X upwards
+- !cannonCam X | Adds X seconds to the CannonCam™
 
 ## Config
 ### Options
