@@ -29,7 +29,7 @@ This adds Twitch integration to Super Mario 64. Meaning commands are added that 
 ### Points
 - startingPoints | How many points a new user starts with.
 - subMultiplier | The multiplier of how many points a sub will get for each bit. **subMultiplier: 2** means subs will get 2 points for 1 bit.
-- modMultiplier | The same as subMultiplier but for moderators instead.
+- modMultiplier | The same as subMultiplier but for moderators instead. If a user is both a mod and a sub they will have whatever multiplier is higher.
 - modCanManagePoints | Whether or not mods can give, take, and set point values for viewers.
 ### Commands
 Each command has a name and a point value. i.e. **"luigi": 10** This means the command that turns Mario into Luigi is called !luigi and costs 10 points to use. These commands must be lowercase but using commands is not case sensitive.
