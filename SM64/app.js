@@ -113,6 +113,7 @@ client.on("chat", (channel, user, message, self) => {
         for (const [key, value] of Object.entries(config.argCommands)) {
             if (command[0] == key.toLowerCase()) {
                 if (command[1] == null) command[1] = 0;
+                command[1] = Math.round(command[1]);
                 if (points[user['username']] >= value * command[1]) {
                     if (command[1] > 0) {
                         //if (!user['username'] == "truc_e") {

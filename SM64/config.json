@@ -1,7 +1,7 @@
 {
   "options": {
     "username": "example_bot",
-    "password": "oauth:exampleoauth123",
+    "password": "oauth:exampleoauth",
     "channel": "example_channel"
   },
   "startingPoints": 100,
