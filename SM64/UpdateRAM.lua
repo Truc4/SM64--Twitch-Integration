@@ -26,6 +26,12 @@ function readFile()
 	signature = tonumber(command[4]);
 end
 
+function file_exists(file)
+  local f = io.open("command.txt", "r")
+  if f then f:close() end
+  return f ~= nil
+end
+
 function mario()
 	memory.write_s16_be(0x2535CA, 0x3F80);
 	memory.write_s16_be(0x2535C2, 0x3F80);
