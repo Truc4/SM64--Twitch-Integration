@@ -15,6 +15,7 @@ end
 
 function readFile()
 	file = io.open("command.txt", "r");
+	if not file_exists(file) then return {} end
 	command = file:read("*a");
 	file:close();
 	--print(justWords(command))
@@ -273,12 +274,13 @@ while true do
 	end
 	
 	if cannonCam == true and cannonTime > 0 then
-		cannonCam = false
 		cannonTime = cannonTime - (1/60)
 		memory.writebyte(0x33C6D4, 0xA);
 		gui.drawText(0,0, "Cannon time remaining: " .. math.ceil(cannonTime), nil, nil, 25);
-	elseif memory.readbyte(0x33C6D4) == 0xA then
+	elseif cannonCam == true and memory.readbyte(0x33C6D4) == 0xA then
 		memory.writebyte(0x33C6D4, 0x10);
+	else
+		cannonCam = false
 	end
 	
 	emu.frameadvance();

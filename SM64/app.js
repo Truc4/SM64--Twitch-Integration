@@ -142,21 +142,21 @@ client.on("chat", (channel, user, message, self) => {
 client.on("cheer", function (channel, user, message) {
     var multiplier = 1;
 
-    //If user is a mod multiply their points recieved by config.mod_multiplier
+    //If user is a mod multiply their points recieved by config.modMultiplier
     if (user['mod']) {
-        multiplier = config.mod_multiplier;
+        multiplier = config.modMultiplier;
     }
-    //If user is a sub multiply their points recieved by config.sub_multiplier
+    //If user is a sub multiply their points recieved by config.subMultiplier
     if (user['subscriber']) {
-        multiplier = config.sub_multiplier;
+        multiplier = config.subMultiplier;
     }
     //If user is a sub and a mod multiply points by which one is bigger value
     if (user['mod'] && user['sub']) {
-        if (config.mod_discount > config.sub_multiplier) {
-            multiplier = config.mod_multiplier;
+        if (config.modMultiplier > config.subMultiplier) {
+            multiplier = config.modMultiplier;
         }
         else {
-            multiplier = config.sub_multiplier;
+            multiplier = config.subMultiplier;
         }
     }
     //Add points
