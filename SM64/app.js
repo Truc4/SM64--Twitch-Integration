@@ -69,7 +69,7 @@ client.on("chat", (channel, user, message, self) => {
             client.say(channel, user['display-name'] + " has " + points[user['username']].toString() + " points.");
         }
         //Admin commands
-        if (user['badges'].broadcaster == 1 || ( config.modCanManagePoints == true && user['badges'].moderator == 1 )) { 
+        if (user['badges'] != null && ( user['badges'].broadcaster == 1 || ( config.modCanManagePoints == true && user['badges'].moderator == 1 ))) { 
             if (command[0] == 'give') {
                 if (Number(command[2]) > 0) {
                     points[command[1]] += Number(command[2]);
