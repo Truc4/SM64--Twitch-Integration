@@ -5,8 +5,8 @@
     "channel": "truc_e"
   },
   "startingPoints": 100,
-  "sub_multiplier": 2,
-  "mod_multiplier": 2,
+  "subMultiplier": 2,
+  "modMultiplier": 2,
   "modCanManagePoints": true,
   "commands": {
     "mario": 0,
